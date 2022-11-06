@@ -9,22 +9,22 @@ export default function Navbar() {
       </a>
       <div className="space" />
       <div className="navLinks">
-        <a href="#sketches">sketches</a>
-        <a href="#lofi">lofi</a>
-        <a href="#hifi">hifi</a>
-        <a href="#feedback">feedback</a>
-        <a href="#revised-hifi">revised-hifi</a>
-        <a href="#testing">testing</a>
-        <a href="#discussion">discussion</a>
+        <a href="#sketches">Sketches</a>
+        <a href="#lofi">Lofi</a>
+        <a href="#hifi">Hifi</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#revised-hifi">Revised-Hifi</a>
+        <a href="#testing">Testing</a>
+        <a href="#discussion">Discussion</a>
       </div>
       <div className="navLinksMini" id="navLinksMini">
-        <a href="#sketches">sketches</a>
-        <a href="#lofi">lofi</a>
-        <a href="#hifi">hifi</a>
-        <a href="#feedback">feedback</a>
-        <a href="#revised-hifi">revised-hifi</a>
-        <a href="#testing">testing</a>
-        <a href="#discussion">discussion</a>
+        <a href="#sketches">Sketches</a>
+        <a href="#lofi">Lofi</a>
+        <a href="#hifi">Hifi</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#revised-hifi">Revised-Hifi</a>
+        <a href="#testing">Testing</a>
+        <a href="#discussion">Discussion</a>
       </div>
       <div
         className="hamburgerIcon"

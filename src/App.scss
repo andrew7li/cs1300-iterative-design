@@ -32,7 +32,7 @@ section h1 {
   justify-content: space-between;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   color: white;
-  text-transform: lowercase;
+  // text-transform: lowercase;
   font-family: "Inknut Antiqua, serif";
   font-size: 1.2rem;
   background: linear-gradient(
@@ -134,6 +134,17 @@ section h1 {
   }
 }
 
+/* HERO SECTION */
+
+.websiteImage {
+  height: 300px;
+  cursor: pointer;
+}
+
+.websiteImage:hover {
+  -webkit-filter: brightness(120%);
+}
+
 /* LOFI DESIGNS */
 
 .lofiContainer {
@@ -162,58 +173,33 @@ section h1 {
 }
 
 .feedbackItem {
-  width: 300px;
+  // flex: 1;
+  width: 320px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   color: black;
 }
 
-.user-image {
-  width: 200px;
+.feedbackImage {
+  width: 320px;
   height: 200px;
-  /* border-radius: 50%; */
   border-radius: 10px;
   object-fit: cover;
 }
 
-#user-image-one {
-  margin-top: 1rem;
-  background-color: #32a0d0;
-}
-
-#user-image-two {
-  margin-top: 1rem;
-  background-color: #828bec;
-}
-
-#user-image-three {
-  margin-top: 1rem;
-  background-color: #943bc7;
-}
-
-.user-header {
+.feedbackHeader {
   padding: 1rem;
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.user-body-container {
+.feedbackTextContainer {
   display: flex;
   flex-direction: row;
   align-items: top;
   justify-content: center;
   gap: 1rem;
-}
-
-.user-body-section-container {
-  text-align: left;
   padding: 0 1rem;
-}
-
-.user-body-section-header {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem 0;
-  text-align: center;
+  text-align: left;
 }

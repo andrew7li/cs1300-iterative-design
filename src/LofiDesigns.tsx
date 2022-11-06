@@ -46,6 +46,7 @@ export default function LofiDesigns() {
                 setShowStoryboardLightbox(true);
                 setLightboxEntry(index);
               }}
+              key={index}
               className="lofiFrame"
             />
           );
