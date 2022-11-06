@@ -15,9 +15,11 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Overview /> */}
+      <section className="heroContainer">
+        <div className="hero" />
+        <h1 className="heroTitle">Iterative Design</h1>
+      </section>
       <section>
-        <h1>Iterative Design</h1>
         <p>
           For this project, my group and I were tasked with researching a
           startup and creating mockups to encompass the main goals of the
