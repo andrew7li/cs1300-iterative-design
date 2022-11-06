@@ -8,7 +8,7 @@ import HifiDesign from "./HifiDesign";
 import Feedback from "./Feedback";
 import PyrlsLogo from "./assets/PyrlsLogo.png";
 import PyrlsWebsite from "./assets/PyrlsWebsite.png";
-
+// @ts-ignore
 import Stepper from "react-stepper-horizontal";
 
 function App() {
