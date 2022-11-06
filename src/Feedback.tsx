@@ -19,7 +19,7 @@ export default function Feedback() {
         aesthetics of the app. Comments here included how we could have made the
         app more visually appealing and aesthetically pleasing.
         <br />
-        <br />A summary of the feedback we received is below. We
+        <br />A summary of the feedback we received is provided below.
       </p>
       <div className="feedbackContainer">
         <div className="feedbackItem">

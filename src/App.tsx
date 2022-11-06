@@ -1,13 +1,22 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.scss";
+
+// Components
 import Navbar from "./Navbar";
 import Sketches from "./Sketches";
 import LofiDesigns from "./LofiDesigns";
 import HifiDesign from "./HifiDesign";
 import Feedback from "./Feedback";
+import RevisedHifiDesign from "./RevisedHifiDesign";
+import Testing from "./Testing";
+import Discussion from "./Discussion";
+
+// Pyrls Related
 import PyrlsLogo from "./assets/PyrlsLogo.png";
 import PyrlsWebsite from "./assets/PyrlsWebsite.png";
+
+// Stepper
 // @ts-ignore
 import Stepper from "react-stepper-horizontal";
 
@@ -70,10 +79,10 @@ function App() {
       <LofiDesigns />
       <HifiDesign />
       <Feedback />
-      {/* Revised hifi design */}
-      {/* Testing */}
+      <RevisedHifiDesign />
+      <Testing />
       {/* Final product */}
-      {/* Conclusion & findings */}
+      <Discussion />
     </>
   );
 }
