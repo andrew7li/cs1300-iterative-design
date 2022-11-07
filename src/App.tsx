@@ -32,13 +32,17 @@ function App() {
 
   return (
     <>
+      {/* Navbar and scroll to top button */}
       <Navbar />
+      <ScrollToTop smooth color="#34baeb" />
 
+      {/* Hero section */}
       <section className="heroContainer">
         <div className="hero" />
         <h1 className="heroTitle">Iterative Design</h1>
       </section>
 
+      {/* Overview section */}
       <section className="overviewContainer">
         <h1>Overview</h1>
         <p>
@@ -76,6 +80,8 @@ function App() {
           startup Pyrls and their mission.
         </p>
       </section>
+
+      {/* Pyrls section */}
       <section id="pyrls">
         <h1>Pyrls</h1>
         <p>
@@ -94,6 +100,8 @@ function App() {
           <img className="websiteImage" src={PyrlsWebsite} />
         </a>
       </section>
+
+      {/* Other sections of the site are imported as components */}
       <Sketches />
       <LofiDesigns />
       <HifiDesign />
@@ -102,8 +110,6 @@ function App() {
       <Testing />
       {/* Final product */}
       <Discussion />
-
-      <ScrollToTop smooth color="#34baeb" />
     </>
   );
 }
