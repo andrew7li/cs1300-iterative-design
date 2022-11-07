@@ -15,6 +15,10 @@ section {
   }
 }
 
+a {
+  color: #32a0d0;
+}
+
 @media screen and (max-width: 680px) {
   section {
     margin: 0 2rem;
@@ -90,7 +94,7 @@ section {
     display: none;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     .navLinks {
       display: none;
     }
@@ -114,7 +118,7 @@ section {
     }
 
     .open {
-      height: 20rem;
+      height: 24rem;
       visibility: visible;
       transition: ease;
       transition-duration: 0.5s;

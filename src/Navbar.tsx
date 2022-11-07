@@ -12,7 +12,7 @@ export default function Navbar() {
         <a href="#sketches">Sketches</a>
         <a href="#lofi">Lofi</a>
         <a href="#hifi">Hifi</a>
-        <a href="#feedback">Feedback</a>
+        <a href="#design-critique">Design Critique</a>
         <a href="#revised-hifi">Revised-Hifi</a>
         <a href="#testing">Testing</a>
         <a href="#analysis">Analysis</a>
@@ -22,7 +22,7 @@ export default function Navbar() {
         <a href="#sketches">Sketches</a>
         <a href="#lofi">Lofi</a>
         <a href="#hifi">Hifi</a>
-        <a href="#feedback">Feedback</a>
+        <a href="#design-critique">Design Critique</a>
         <a href="#revised-hifi">Revised-Hifi</a>
         <a href="#testing">Testing</a>
         <a href="#analysis">Analysis</a>

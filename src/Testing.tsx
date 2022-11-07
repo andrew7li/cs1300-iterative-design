@@ -11,19 +11,50 @@ export default function Testing() {
       <h1>Testing</h1>
       <p>
         Following the finalized Figma, we then conducted user testing for the
-        interactive prototype. To do so, we submitted our prototype to this site
-        (TODO: PUT IN LINK).
+        interactive prototype. To do so, we submitted our prototype to
+        <a href="usertesting.com">usertesting.com</a>, where we had to include a
+        scenario and subtasks for testers to complete. The scenario and subtasks
+        are as follows.
+      </p>
+      <h2>Scenario</h2>
+      <p>
+        Feel free to think aloud as you complete this exercise. For this
+        exercise, you will be testing an interactive mockup for a healthcare
+        startup company called Pyrls. Imagine that you are using the app as a
+        physician. You are looking to prescribe Ibuprofen (a type of
+        anti-inflammatory drug) to a patient. However, you don't remember all
+        the details about the drug. Luckily for you, you have taken notes about
+        Ibuprofen on our app. Use our app to find information about Ibuprofen,
+        including the notes you took on the drug.
+      </p>
+      <h2>Task 1</h2>
+      <p>
+        Wiithout leaving the homepage, describe what you would select first to
+        accomplish the scenario. **Do not select anything yet.** If you would
+        leave without clicking anywhere, please explain why. (no success metric)
+      </p>
+      <h2>Task 2</h2>
+      <p>
+        In order to update your notes, you need to find more information about
+        Ibuprofen. Describe and complete the process of finding more information
+        on Ibuprofen. (success metric)
+      </p>
+      <h2>Task 3</h2>
+      <p>
+        Now that you found more notes on Ibuprofen, you realize you want to
+        update them. How would you update your notes? (success metric)
+      </p>
+      <h2>Task 4</h2>
+      <p>
+        Now that you've seen some of what our app can do, in your own words,
+        describe what this app offers for physicians. Name at least 3 offerings.
+        (success metric)
       </p>
       <p>
-        User testing then included a scenario and subtasks. The scenario was XX
-        and the subtasks were XX. We then asked the user to complete the
-        subtasks and recorded their responses.
+        We then asked the user to complete the subtasks and recorded their
+        responses. We received 3 responses from users. Their observations are
+        provided below.
       </p>
-      <p>
-        We received 3 responses from users. Their observations are provided
-        below.
-      </p>
-
       <div className="userContainer">
         <div className="userCard">
           <img
