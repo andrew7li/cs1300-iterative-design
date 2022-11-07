@@ -11,10 +11,12 @@ export default function Testing() {
       <h1>Testing</h1>
       <p>
         Following the finalized Figma, we then conducted user testing for the
-        interactive prototype. To do so, we submitted our prototype to
-        <a href="usertesting.com">usertesting.com</a>, where we had to include a
-        scenario and subtasks for testers to complete. The scenario and subtasks
-        are as follows.
+        interactive prototype. To do so, we submitted our prototype to{" "}
+        <a href="http://usertesting.com" target="_blank" className="link">
+          usertesting.com
+        </a>
+        , where we had to include a scenario and subtasks for testers to
+        complete. The scenario and subtasks are as follows.
       </p>
       <h2>Scenario</h2>
       <p>
@@ -27,34 +29,49 @@ export default function Testing() {
         Ibuprofen on our app. Use our app to find information about Ibuprofen,
         including the notes you took on the drug.
       </p>
-      <h2>Task 1</h2>
-      <p>
-        Wiithout leaving the homepage, describe what you would select first to
-        accomplish the scenario. **Do not select anything yet.** If you would
-        leave without clicking anywhere, please explain why. (no success metric)
-      </p>
-      <h2>Task 2</h2>
-      <p>
-        In order to update your notes, you need to find more information about
-        Ibuprofen. Describe and complete the process of finding more information
-        on Ibuprofen. (success metric)
-      </p>
-      <h2>Task 3</h2>
-      <p>
-        Now that you found more notes on Ibuprofen, you realize you want to
-        update them. How would you update your notes? (success metric)
-      </p>
-      <h2>Task 4</h2>
-      <p>
-        Now that you've seen some of what our app can do, in your own words,
-        describe what this app offers for physicians. Name at least 3 offerings.
-        (success metric)
-      </p>
+      <div className="taskContainer">
+        <div className="taskCard">
+          <div className="taskHeader">Task 1 (No Success Metric)</div>
+          <div className="taskBody">
+            Without leaving the homepage, describe what you would select first
+            to accomplish the scenario. **Do not select anything yet.** If you
+            would leave without clicking anywhere, please explain why.
+          </div>
+        </div>
+
+        <div className="taskCard">
+          <div className="taskHeader">Task 2 (Success Metric)</div>
+          <div className="taskBody">
+            In order to update your notes, you need to find more information
+            about Ibuprofen. Describe and complete the process of finding more
+            information on Ibuprofen.
+          </div>
+        </div>
+
+        <div className="taskCard">
+          <div className="taskHeader">Task 3 (Success Metric)</div>
+          <div className="taskBody">
+            Now that you found more notes on Ibuprofen, you realize you want to
+            update them. How would you update your notes?
+          </div>
+        </div>
+
+        <div className="taskCard">
+          <div className="taskHeader">Task 4 (Success Metric)</div>
+          <div className="taskBody">
+            Now that you've seen some of what our app can do, in your own words,
+            describe what this app offers for physicians. Name at least 3
+            offerings.
+          </div>
+        </div>
+      </div>
+
       <p>
         We then asked the user to complete the subtasks and recorded their
         responses. We received 3 responses from users. Their observations are
         provided below.
       </p>
+      <p></p>
       <div className="userContainer">
         <div className="userCard">
           <img
@@ -66,8 +83,13 @@ export default function Testing() {
           <div className="userHeader">User One</div>
           <div className="userSectionContainer">
             <div className="userSectionHeader">
-              <a href="https://app.usertesting.com/v/1aec01ab-7746-4cbc-96c1-10d13231123b?encrypted_video_handle=a5106295-4395-4a33-8f62-1b36444841b1#!/notes&shared_via=link
-" target="_blank">Check out my interaction!</a>
+              <a
+                href="https://app.usertesting.com/v/1aec01ab-7746-4cbc-96c1-10d13231123b?encrypted_video_handle=a5106295-4395-4a33-8f62-1b36444841b1#!/notes&shared_via=link
+"
+                target="_blank"
+              >
+                Check out my interaction!
+              </a>
             </div>
             <strong>Task 1:</strong>
             <ul>
@@ -105,8 +127,13 @@ export default function Testing() {
           />
           <div className="userHeader">User Two</div>
           <div className="userSectionContainer">
-          <div className="userSectionHeader">
-              <a href="https://app.usertesting.com/v/855ef1e2-5bd3-4a6d-b747-89cfaadd6fe6?encrypted_video_handle=2b3dd98b-c2db-434f-a8fc-804ef85b4c34#!/notes&shared_via=link" target="_blank">Check out my interaction!</a>
+            <div className="userSectionHeader">
+              <a
+                href="https://app.usertesting.com/v/855ef1e2-5bd3-4a6d-b747-89cfaadd6fe6?encrypted_video_handle=2b3dd98b-c2db-434f-a8fc-804ef85b4c34#!/notes&shared_via=link"
+                target="_blank"
+              >
+                Check out my interaction!
+              </a>
             </div>
             <strong>Task 1:</strong>
             <ul>
@@ -144,8 +171,13 @@ export default function Testing() {
           />
           <div className="userHeader">User Three</div>
           <div className="userSectionContainer">
-          <div className="userSectionHeader">
-              <a href="https://app.usertesting.com/v/f27adb86-fb0b-4970-ae5e-e097f252c3cb?encrypted_video_handle=1e4e8d56-6159-4b88-a76b-af19457b4498#!/notes&shared_via=link" target="_blank">Check out my interaction!</a>
+            <div className="userSectionHeader">
+              <a
+                href="https://app.usertesting.com/v/f27adb86-fb0b-4970-ae5e-e097f252c3cb?encrypted_video_handle=1e4e8d56-6159-4b88-a76b-af19457b4498#!/notes&shared_via=link"
+                target="_blank"
+              >
+                Check out my interaction!
+              </a>
             </div>
             <strong>Task 1:</strong>
             <ul>

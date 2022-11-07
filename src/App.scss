@@ -25,6 +25,16 @@ a {
   }
 }
 
+.link {
+  margin: 0 auto;
+  color: rgb(189, 17, 104);
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: rgb(124, 5, 64);
+}
+
 /* NAVIGATION BAR */
 
 .topNavigation {
@@ -316,6 +326,39 @@ a {
 
 /* TESTING */
 
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+
+  .taskCard {
+    width: 340px;
+    height: auto;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 2rem;
+    align-self: stretch;
+    color: black;
+
+    .taskHeader {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0 0 1rem 0;
+    }
+
+    .taskBody {
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0 1.2rem 1rem 1.2rem;
+    }
+  }
+}
+
 .userContainer {
   display: flex;
   flex-direction: row;
@@ -361,15 +404,16 @@ a {
   .userSectionContainer {
     text-align: left;
     padding: 0 1rem;
+    margin-bottom: 1rem;
 
     a {
       margin: 0 auto;
-      color:rgb(189, 17, 104);
+      color: rgb(189, 17, 104);
       text-decoration: underline;
     }
 
     a:hover {
-      color:rgb(124, 5, 64);
+      color: rgb(124, 5, 64);
     }
 
     .userSectionHeader {
