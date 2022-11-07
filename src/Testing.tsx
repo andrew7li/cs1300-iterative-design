@@ -34,7 +34,10 @@ export default function Testing() {
           />
           <div className="userHeader">User One</div>
           <div className="userSectionContainer">
-            <div className="userSectionHeader">Observations</div>
+            <div className="userSectionHeader">
+              <a href="https://app.usertesting.com/v/1aec01ab-7746-4cbc-96c1-10d13231123b?encrypted_video_handle=a5106295-4395-4a33-8f62-1b36444841b1#!/notes&shared_via=link
+" target="_blank">Check out my interaction!</a>
+            </div>
             <strong>Task 1:</strong>
             <ul>
               <li>Clicked on anti-inflammatory drugs first on home page</li>
@@ -71,7 +74,9 @@ export default function Testing() {
           />
           <div className="userHeader">User Two</div>
           <div className="userSectionContainer">
-            <div className="userSectionHeader">Observations</div>
+          <div className="userSectionHeader">
+              <a href="https://app.usertesting.com/v/855ef1e2-5bd3-4a6d-b747-89cfaadd6fe6?encrypted_video_handle=2b3dd98b-c2db-434f-a8fc-804ef85b4c34#!/notes&shared_via=link" target="_blank">Check out my interaction!</a>
+            </div>
             <strong>Task 1:</strong>
             <ul>
               <li>Clicked on anti-inflammatory drugs first on home page</li>
@@ -108,7 +113,9 @@ export default function Testing() {
           />
           <div className="userHeader">User Three</div>
           <div className="userSectionContainer">
-            <div className="userSectionHeader">Observations</div>
+          <div className="userSectionHeader">
+              <a href="https://app.usertesting.com/v/f27adb86-fb0b-4970-ae5e-e097f252c3cb?encrypted_video_handle=1e4e8d56-6159-4b88-a76b-af19457b4498#!/notes&shared_via=link" target="_blank">Check out my interaction!</a>
+            </div>
             <strong>Task 1:</strong>
             <ul>
               <li>Clicked on anti-inflammatory drugs first on home page</li>
