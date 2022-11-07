@@ -8,8 +8,8 @@ export default function Feedback() {
         After we had our Hifi design, we then received constructive design
         feedback and critiques from our peers. This feedback was very helpful in
         improving our design and making the app more user friendly.
-        <br />
-        <br />
+      </p>
+      <p>
         We grouped the feedback into 3 categories: Functionality, Usability, and
         Design. Functionality refers to the functionality of the app and how it
         works. Comments here included how we could have better designed the app
@@ -18,9 +18,8 @@ export default function Feedback() {
         the app more user friendly and intuitive. Design refers to the visual
         aesthetics of the app. Comments here included how we could have made the
         app more visually appealing and aesthetically pleasing.
-        <br />
-        <br />A summary of the feedback we received is provided below.
       </p>
+      <p>A summary of the feedback we received is provided below.</p>
       <div className="feedbackContainer">
         <div className="feedbackItem">
           <img

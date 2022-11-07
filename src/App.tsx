@@ -10,7 +10,8 @@ import HifiDesign from "./HifiDesign";
 import Feedback from "./Feedback";
 import RevisedHifiDesign from "./RevisedHifiDesign";
 import Testing from "./Testing";
-import Discussion from "./Discussion";
+import Analysis from "./Analysis";
+import Conclusion from "./Conclusion";
 
 // Pyrls Related
 import PyrlsLogo from "./assets/PyrlsLogo.png";
@@ -47,16 +48,16 @@ function App() {
         <h1>Overview</h1>
         <p>
           My group and I researched a startup and created mockups to encompass
-          the main goals to the startup's concept. We chose to research the startup Pyrls
-          (which is described below). In the process of creating mockups, we
-          used the iterative design process. This included creating sketches,
-          lo-fi mockups, and a hi-fi mockup before undergoing a design critique.
-          At the design critique, we had the opportunity to meet with an
-          industry professional from Figma and received valuable feedback. Based
-          on this feedback, we improved our hi-fi mockups to
-          create a final version of our mockups. Finally, we used a remote user testing service to test our mockups
-          and analyzed the results. Below is a summary of the
-          design process.
+          the main goals to the startup's concept. We chose to research the
+          startup Pyrls (which is described below). In the process of creating
+          mockups, we used the iterative design process. This included creating
+          sketches, lo-fi mockups, and a hi-fi mockup before undergoing a design
+          critique. At the design critique, we had the opportunity to meet with
+          an industry professional from Figma and received valuable feedback.
+          Based on this feedback, we improved our hi-fi mockups to create a
+          final version of our mockups. Finally, we used a remote user testing
+          service to test our mockups and analyzed the results. Below is a
+          summary of the design process.
         </p>
         <div className="stepper">
           {/* CITATION: Stepper taken from */}
@@ -108,8 +109,8 @@ function App() {
       <Feedback />
       <RevisedHifiDesign />
       <Testing />
-      {/* Final product */}
-      <Discussion />
+      <Analysis />
+      <Conclusion />
     </>
   );
 }

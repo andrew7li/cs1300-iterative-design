@@ -15,7 +15,8 @@ export default function Navbar() {
         <a href="#feedback">Feedback</a>
         <a href="#revised-hifi">Revised-Hifi</a>
         <a href="#testing">Testing</a>
-        <a href="#discussion">Discussion</a>
+        <a href="#analysis">Analysis</a>
+        <a href="#conclusion">Conclusion</a>
       </div>
       <div className="navLinksMini" id="navLinksMini">
         <a href="#sketches">Sketches</a>
@@ -24,7 +25,8 @@ export default function Navbar() {
         <a href="#feedback">Feedback</a>
         <a href="#revised-hifi">Revised-Hifi</a>
         <a href="#testing">Testing</a>
-        <a href="#discussion">Discussion</a>
+        <a href="#analysis">Analysis</a>
+        <a href="#conclusion">Conclusion</a>
       </div>
       <div
         className="hamburgerIcon"
