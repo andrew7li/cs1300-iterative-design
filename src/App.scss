@@ -1,20 +1,23 @@
 #root {
-  // max-width: 1280px;
   margin: 0 auto;
-  // padding: 2rem;
   text-align: center;
   color: white;
 }
 
 section {
-  padding: 3.75rem 0;
-  // padding: 2rem;
-  margin: 0px;
+  padding: 3.75rem 0 1rem;
+  margin: 0 5rem;
 
-  // Title for the section
+  // Section title
   h1 {
     font-size: 2.5rem;
     font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  section {
+    margin: 0 2rem;
   }
 }
 
@@ -35,7 +38,7 @@ section {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   color: white;
   // text-transform: lowercase;
-  font-family: "Inknut Antiqua, serif";
+  // font-family: "Inknut Antiqua, serif";
   font-size: 1.2rem;
   background: linear-gradient(
     269.84deg,
@@ -141,6 +144,7 @@ section {
 .heroContainer {
   position: relative;
   padding-bottom: 0px;
+  margin: 0;
 
   .hero {
     width: 100%;
@@ -159,7 +163,7 @@ section {
   .heroTitle {
     width: 100%;
     position: absolute;
-    top: 45%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4rem;
@@ -167,14 +171,50 @@ section {
   }
 }
 
+.overviewContainer {
+  padding: 1rem 0 0;
+}
+
+.transitionText {
+  padding: 2rem 0 0;
+}
+
 .websiteImage {
-  // height: 300px;
-  width: 25%;
+  border: 1px solid black;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 300px;
   cursor: pointer;
 }
 
-.websiteImage:hover {
+.websiteImage:hover,
+.hifiFigma:hover,
+.revisedHifiFigma:hover {
   -webkit-filter: brightness(120%);
+}
+
+@media screen and (max-width: 800px) {
+  .websiteImage {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .heroContainer .heroTitle {
+    top: 50%;
+    font-size: 2.5rem;
+  }
+  .websiteImage {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .websiteImage {
+    height: 120px;
+  }
+  .stepper {
+    display: none;
+  }
 }
 
 /* LOFI DESIGNS */
@@ -190,6 +230,31 @@ section {
   .lofiFrame {
     width: 320px;
     cursor: zoom-in;
+  }
+}
+
+/* HIFI DESIGNS */
+
+.hifiContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  .hifiStyleGuideFrame {
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    width: 320px;
+    cursor: zoom-in;
+  }
+
+  .hifiFigma {
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    width: 220px;
+    cursor: pointer;
   }
 }
 
@@ -234,4 +299,13 @@ section {
   gap: 1rem;
   padding: 0 1rem;
   text-align: left;
+}
+
+/* REVISED DESIGNS */
+
+.revisedHifiFigma {
+  border: 1px solid black;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  width: 280px;
+  cursor: pointer;
 }

@@ -14,6 +14,7 @@ import Discussion from "./Discussion";
 
 // Pyrls Related
 import PyrlsLogo from "./assets/PyrlsLogo.png";
+import PyrlsLogo2 from "./assets/PyrlsLogo2.webp";
 import PyrlsWebsite from "./assets/PyrlsWebsite.png";
 
 // Stepper
@@ -24,41 +25,51 @@ function App() {
   return (
     <>
       <Navbar />
+
       <section className="heroContainer">
         <div className="hero" />
         <h1 className="heroTitle">Iterative Design</h1>
       </section>
-      <section>
+
+      <section className="overviewContainer">
+        <h1>Overview</h1>
         <p>
-          For this project, my group and I were tasked with researching a
-          startup and creating mockups to encompass the main goals of the
-          startup. We chose to research the startup Pyrls (which is described
-          below). In the process of creating mockups, we used the iterative
-          design process. This included creating sketches, lo-fi mockups, and a
-          hi-fi mockup before undergoing a design critique. At the design
-          critique, we had the opportunity to meet with an industry professional
-          from Figma and received valuable feedback.Based on this feedback, we
-          decided to improve our hi-fi mockups in order to create a final
-          version of our mockups. Finally, we had our mockups user tested and
-          analyzed those results. Below is a summary of our process.
+          My group and I researched a startup and created mockups to encompass
+          the main goals of the startup. We chose to research the startup Pyrls
+          (which is described below). In the process of creating mockups, we
+          used the iterative design process. This included creating sketches,
+          lo-fi mockups, and a hi-fi mockup before undergoing a design critique.
+          At the design critique, we had the opportunity to meet with an
+          industry professional from Figma and received valuable feedback.Based
+          on this feedback, we decided to improve our hi-fi mockups in order to
+          create a final version of our mockups. Finally, we had our mockups
+          user tested and analyzed those results. Below is a summary of the
+          design process.
         </p>
-        <Stepper
-          steps={[
-            { title: "Sketches" },
-            { title: "Lofi Wireframes" },
-            { title: "Initial Figma Prototype" },
-            { title: "Design Critique" },
-            { title: "Revised Figma Prototype" },
-            { title: "Testing" },
-          ]}
-          activeStep={12}
-          completeColor={"#2a9d8f"}
-          completeTitleColor={"#fff"}
-        />
+        <div className="stepper">
+          {/* CITATION: Stepper taken from */}
+          {/* https://snyk.io/advisor/npm-package/react-stepper-horizontal */}
+          <Stepper
+            steps={[
+              { title: "Sketches" },
+              { title: "Lofi Wireframes" },
+              { title: "Initial Figma Prototype" },
+              { title: "Design Critique" },
+              { title: "Revised Figma Prototype" },
+              { title: "Testing" },
+            ]}
+            activeStep={12}
+            completeColor={"#34baeb"}
+            completeTitleColor={"#fff"}
+          />
+        </div>
+        <p className="transitionText">
+          To begin describing the iterative design process, we first discuss the
+          startup Pyrls and their mission.
+        </p>
       </section>
-      <section>
-        <h2>PYRLS</h2>
-        <img src={PyrlsLogo} />
+      <section id="pyrls">
+        <h1>Pyrls</h1>
         <p>
           Pyrls is a website and mobile app that enables healthcare providers
           and healthcare students to more effectively prescribe, dispense, and
@@ -70,8 +81,8 @@ function App() {
           the application as an educational tool to review information about
           drugs, side effects, brands, and treatment information.
         </p>
-        <p>Check out Pyrls below!</p>
-        <a href="https://pyrls.com/">
+        <p>Feel free to check out Pyrls below for more information!</p>
+        <a href="https://pyrls.com/" target="_blank">
           <img className="websiteImage" src={PyrlsWebsite} />
         </a>
       </section>

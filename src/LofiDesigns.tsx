@@ -1,10 +1,13 @@
 import React, { useMemo, useState } from "react";
+
+// Lofi Designs
 import Home from "./assets/lofi-designs/Home.png";
 import DrugInfo from "./assets/lofi-designs/DrugInfo.png";
 import Explore from "./assets/lofi-designs/Explore.png";
 import Profile from "./assets/lofi-designs/Profile.png";
 import SavedDrugs from "./assets/lofi-designs/SavedDrugs.png";
 
+// Lightbox
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
@@ -12,7 +15,7 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 const frames = [Home, Explore, SavedDrugs, DrugInfo, Profile];
 
 export default function LofiDesigns() {
-  const [showStoryboardLightbox, setShowStoryboardLightbox] = useState(false);
+  const [showLofiLightbox, setShowLofiLightbox] = useState(false);
   const [lightboxEntry, setLightboxEntry] = useState(0);
   const lightboxFrames = useMemo(
     () => [...frames.slice(lightboxEntry), ...frames.slice(0, lightboxEntry)],
@@ -28,8 +31,8 @@ export default function LofiDesigns() {
         simplify the quick sketches we initially did.
       </p>
       <Lightbox
-        open={showStoryboardLightbox}
-        close={() => setShowStoryboardLightbox(false)}
+        open={showLofiLightbox}
+        close={() => setShowLofiLightbox(false)}
         slides={lightboxFrames.map((frame, index) => ({
           src: frame,
           alt: `Lofi Frame ${index + 1}`,
@@ -43,7 +46,7 @@ export default function LofiDesigns() {
               src={frame}
               alt={`Frame ${index + 1}`}
               onClick={() => {
-                setShowStoryboardLightbox(true);
+                setShowLofiLightbox(true);
                 setLightboxEntry(index);
               }}
               key={index}

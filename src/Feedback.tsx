@@ -39,6 +39,13 @@ export default function Feedback() {
               <li>
                 Consider adding trending news or articles to the home page
               </li>
+              <li>
+                Saved drugs screen should be improved for findability
+                <ul>
+                  <li>Color code type of drug in saved drugs</li>
+                  <li>Consider adding a search bar</li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -63,11 +70,9 @@ export default function Feedback() {
                 where the user is in the app
               </li>
               <li>
-                Saved drugs screen should be improved for findability
-                <ul>
-                  <li>Color code type of drug in saved drugs</li>
-                  <li>Consider adding a search bar</li>
-                </ul>
+                When searching for drugs, the image of the drug could be bigger
+                so that it makes it easier for users to reference a drug. This
+                is especially so when drug names or types get longer
               </li>
             </ul>
           </div>
@@ -87,11 +92,6 @@ export default function Feedback() {
                 Inconsistent spacing for buttons on the settings. Consider
                 adding headings or description of what the hierarchy / groupings
                 are
-              </li>
-              <li>
-                When searching for drugs, the image of the drug could be bigger
-                so that it makes it easier for users to reference a drug. This
-                is especially so when drug names or types get longer
               </li>
               <li>
                 Comma presentation of drug treatments is crowded and hard to
