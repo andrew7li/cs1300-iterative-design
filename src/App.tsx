@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.scss";
 
@@ -21,7 +21,15 @@ import PyrlsWebsite from "./assets/PyrlsWebsite.png";
 // @ts-ignore
 import Stepper from "react-stepper-horizontal";
 
+// Scroll to top
+import ScrollToTop from "react-scroll-to-top";
+
 function App() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -94,6 +102,8 @@ function App() {
       <Testing />
       {/* Final product */}
       <Discussion />
+
+      <ScrollToTop smooth color="#34baeb" />
     </>
   );
 }
