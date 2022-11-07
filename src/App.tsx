@@ -25,8 +25,8 @@ import Stepper from "react-stepper-horizontal";
 import ScrollToTop from "react-scroll-to-top";
 
 function App() {
+  // Scroll to top on page load
   useEffect(() => {
-    // 👇️ scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
