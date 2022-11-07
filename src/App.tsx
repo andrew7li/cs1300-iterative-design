@@ -47,15 +47,15 @@ function App() {
         <h1>Overview</h1>
         <p>
           My group and I researched a startup and created mockups to encompass
-          the main goals of the startup. We chose to research the startup Pyrls
+          the main goals to the startup's concept. We chose to research the startup Pyrls
           (which is described below). In the process of creating mockups, we
           used the iterative design process. This included creating sketches,
           lo-fi mockups, and a hi-fi mockup before undergoing a design critique.
           At the design critique, we had the opportunity to meet with an
-          industry professional from Figma and received valuable feedback.Based
-          on this feedback, we decided to improve our hi-fi mockups in order to
-          create a final version of our mockups. Finally, we had our mockups
-          user tested and analyzed those results. Below is a summary of the
+          industry professional from Figma and received valuable feedback. Based
+          on this feedback, we improved our hi-fi mockups to
+          create a final version of our mockups. Finally, we used a remote user testing service to test our mockups
+          and analyzed the results. Below is a summary of the
           design process.
         </p>
         <div className="stepper">
