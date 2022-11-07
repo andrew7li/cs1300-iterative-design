@@ -26,7 +26,6 @@ export default function Feedback() {
           <img
             src="https://www.business2community.com/wp-content/uploads/2019/06/website-functionality-error.jpg"
             className="feedbackImage"
-            id="user-image-three"
             alt="Functionality Card"
           />
           <div className="feedbackHeader">Functionality</div>
@@ -54,7 +53,6 @@ export default function Feedback() {
           <img
             src="https://www.puzzlehive.com/wp-content/uploads/2017/11/web-design-singapore-usability.jpg"
             className="feedbackImage"
-            id="user-image-three"
             alt="Usability Card"
           />
           <div className="feedbackHeader">Usability</div>
@@ -82,7 +80,6 @@ export default function Feedback() {
           <img
             src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/01/104228210.jpg?auto=format&q=60&w=1280&h=720&fit=crop&crop=faces"
             className="feedbackImage"
-            id="user-image-three"
             alt="Design Card"
           />
           <div className="feedbackHeader">Design</div>

@@ -272,7 +272,7 @@ section {
 .feedbackItem {
   // flex: 1;
   width: 320px;
-  background-color: #fff;
+  background-color: #ebebeb;
   border-radius: 15px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   color: black;
@@ -308,4 +308,70 @@ section {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   width: 280px;
   cursor: pointer;
+}
+
+/* TESTING */
+
+.userContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+
+  .userCard {
+    width: 300px;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+
+    .userImage {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 1rem;
+    }
+
+    #userImageOne {
+      background-color: #32a0d0;
+    }
+
+    #userImageTwo {
+      background-color: #828bec;
+    }
+
+    #userImageThree {
+      background-color: #943bc7;
+    }
+  }
+
+  .userHeader {
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .userSectionContainer {
+    text-align: left;
+    padding: 0 1rem;
+
+    .userSectionHeader {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem 0;
+      text-align: center;
+    }
+
+    strong {
+      padding-left: 0.5rem;
+    }
+
+    ul {
+      padding-left: 2.5rem;
+      margin: 0.2rem;
+    }
+  }
 }
