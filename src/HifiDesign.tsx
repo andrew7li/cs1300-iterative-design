@@ -33,8 +33,9 @@ export default function HifiDesign() {
       />
       <p>
         Based on our lo-fi designs, we created hi-fi designs on Figma. These
-        designs integrated our ideas and allowed us to create a style guide that
-        we applied to our lo-fi designs.
+        designs expanded on the lo-fi designs and added more detail to the
+        interface, such as colors, fonts, and hierarchy. We also created a style
+        guide to help us keep our designs consistent.
       </p>
       <div className="hifiContainer">
         <img

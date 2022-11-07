@@ -29,6 +29,7 @@ export default function Testing() {
         Ibuprofen on our app. Use our app to find information about Ibuprofen,
         including the notes you took on the drug.
       </p>
+      <h2>Tasks</h2>
       <div className="taskContainer">
         <div className="taskCard">
           <div className="taskHeader">Task 1 (No Success Metric)</div>
@@ -68,8 +69,10 @@ export default function Testing() {
 
       <p>
         We then asked the user to complete the subtasks and recorded their
-        responses. We received 3 responses from users. Their observations are
-        provided below.
+        responses. We received 3 responses from users along with a video of
+        their interaction with the application. Their observations are provided
+        below along with the corresponding video, which can be accessed by
+        clicking on the link underneath the user's avatar.
       </p>
       <p></p>
       <div className="userContainer">

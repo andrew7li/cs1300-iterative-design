@@ -57,7 +57,7 @@ function App() {
           Based on this feedback, we improved our hi-fi mockups to create a
           final version of our mockups. Finally, we used a remote user testing
           service to test our mockups and analyzed the results. Below is a
-          summary of the design process.
+          flowchart of the design process.
         </p>
         <div className="stepper">
           {/* CITATION: Stepper taken from */}
@@ -92,9 +92,9 @@ function App() {
           on the mobile application interface of the startup. Through our
           design, industry healthcare providers will be able to search and find
           information relating to drug prescriptions easily with this
-          application through a database. Healthcare students are able to use
-          the application as an educational tool to review information about
-          drugs, side effects, brands, and treatment information.
+          application through a database; and, healthcare students will be able
+          to use the application as an educational tool to review information
+          about drugs, side effects, brands, and treatment information.
         </p>
         <p>Feel free to check out Pyrls below for more information!</p>
         <a href="https://pyrls.com/" target="_blank">

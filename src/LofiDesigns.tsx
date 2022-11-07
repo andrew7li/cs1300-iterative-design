@@ -28,7 +28,8 @@ export default function LofiDesigns() {
       <p>
         To transfer our sketches to more concrete ideas, we created lo-fi
         mockups on Balsamic (pictured below). These mockups encompass and
-        simplify the quick sketches we initially did.
+        simplify the quick sketches we initially did into a more concrete and
+        standardized design.
       </p>
       <Lightbox
         open={showLofiLightbox}

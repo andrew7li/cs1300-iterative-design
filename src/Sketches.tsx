@@ -39,7 +39,9 @@ export default function Sketches() {
         To begin, we started with ideation and sketching a few screens. The
         purpose here was to come up with as many different ideas and designs as
         possible so that we could narrow down our ideas and focus on the best
-        designs for the app.
+        designs for the app. When sketching, we made sure to encompass various
+        screens and features that we wanted to include in our app to diversify
+        our designs.
       </p>
       <Lightbox
         open={showLofiLightbox}
