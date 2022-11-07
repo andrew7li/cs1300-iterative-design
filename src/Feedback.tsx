@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Feedback() {
   return (
-    <section id="feedback">
-      <h1>Feedback</h1>
+    <section id="design-critique">
+      <h1>Design Critique</h1>
       <p>
         After we had our Hifi design, we then received constructive design
         feedback and critiques from our peers. This feedback was very helpful in
